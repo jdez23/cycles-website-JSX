@@ -1,2 +1,2 @@
 # Cycles website
-Landing page with email subscription for Cycles app.
+Landing page with email subscription for Cycles app. React.js
