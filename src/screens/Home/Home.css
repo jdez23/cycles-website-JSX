@@ -1,0 +1,265 @@
+.body {
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+}
+.product1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 80px;
+}
+.product1 img {
+    height: 460pt;
+}
+.right-text {
+    text-align: start;
+    margin-left: 50pt;
+    /* background-color: #1e922d; */
+}
+.product1 div img {
+    height: 64pt;
+    margin-left: -3pt;
+}
+.product1 div h2 {
+    color: white;
+    text-align:start;
+    font-size: 16pt;
+    font-family: Futura;
+    font-weight: bold;
+    margin-top: 2pt;
+}
+.product1 div h3 {
+    font-size: 12pt;
+    font-family: Futura;
+    font-weight: bold;
+    margin-top: 12pt;
+    text-align: start;
+    color: white;
+}
+hr.rounded {
+    width: 90%;
+    border-color: rgba(42, 42, 42);
+  }
+  .emailUpdate {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+  }
+  .emailSignUpText {
+    padding-left: 12pt;
+    padding-right: 12pt;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  .spotify-email-warning {
+    font-size: 9pt;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    margin-top: 10pt;
+    font-family: Futura;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 30pt;
+    border: none;
+    width: 600pt;
+    padding-left: 12pt;
+    border-radius: 25pt;
+    background-color: rgb(40, 40, 40);
+    color: white;
+  }
+  .inputButton {
+    margin-top: 15pt;
+    color: white;
+    font-family: Futura;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 30pt;
+    width: 60pt;
+    border: none;
+    border-radius: 20pt;
+    background-color: #25cc3b;
+  }
+  .inputButton:hover {
+    background-color: #1e922d;
+  }
+  .success-message {
+    font-family: Futura;
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    padding-top: 18pt;
+  }
+
+
+@media (max-width: 1200px) {
+  .product1 img {
+    height: 460px;
+  }
+  .emailSignUpText {
+    padding-left: 12pt;
+    padding-right: 12pt;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  .spotify-email-warning {
+    font-size: 9pt;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    width: 400pt;
+  }
+  .right-text {
+    text-align: start;
+    margin-left: 40pt;
+}
+  .product1 div img {
+      height: 50pt;
+      align-items: flex-start;
+      margin-left: -3pt;
+  }
+  .product1 div h2 {
+      color: white;
+      text-align:start;
+      font-size: 14pt;
+      font-family: Futura;
+      font-weight: bold;
+      margin-top: 2pt;
+  }
+  .product1 div h3 {
+      font-size: 12pt;
+      font-family: Futura;
+      font-weight: bold;
+      padding-top: 2pt;
+      text-align: start;
+      color: white;
+  }
+}
+
+@media (max-width: 700px) {
+  .product1 img {
+    height: 260px;
+  }
+  .emailSignUpText {
+    padding-left: 12pt;
+    padding-right: 12pt;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+  .spotify-email-warning {
+    font-size: 8pt;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    width: 200pt;
+  }
+  .right-text {
+    text-align: start;
+    margin-left: 20pt;
+}
+  .product1 div img {
+      height: 30pt;
+      align-items: flex-start;
+      margin-left: -3pt;
+  }
+  .product1 div h2 {
+      color: white;
+      text-align:start;
+      font-size: 10pt;
+      font-family: Futura;
+      font-weight: bold;
+      margin-top: 2pt;
+  }
+  .product1 div h3 {
+      font-size: 8pt;
+      font-family: Futura;
+      font-weight: bold;
+      margin-top: 2pt;
+      text-align: start;
+      color: white;
+  }
+}
+
+@media (max-width: 500px) {
+  .product1 img {
+    height: 260px;
+  }
+  .emailSignUpText {
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+  .spotify-email-warning {
+    font-size: 9pt;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    width: 160pt;
+  }
+  .right-text {
+    text-align: start;
+    margin-left: 20pt;
+}
+  .product1 div img {
+      height: 30pt;
+      align-items: flex-start;
+      margin-left: -3pt;
+  }
+  .product1 div h2 {
+      color: white;
+      text-align:start;
+      font-size: 10pt;
+      font-family: Futura;
+      font-weight: bold;
+      margin-top: 2pt;
+  }
+  .product1 div h3 {
+      font-size: 8pt;
+      font-family: Futura;
+      font-weight: bold;
+      margin-top: 2pt;
+      text-align: start;
+      color: white;
+  }
+}

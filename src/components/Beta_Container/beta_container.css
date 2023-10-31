@@ -1,0 +1,26 @@
+.beta-container {
+    background-color: rgb(42, 42, 42);
+    height: 34pt;
+    width: 80pt;
+    border-radius: 10pt;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12pt;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: Futura;
+    font-weight: bold;
+  }
+  .beta-logo {
+    height: 50pt;
+    background-color: #1e922d;
+  }
+
+  @media (max-width: 700px) {
+    .beta-container {
+        height: 26pt;
+        width: 60pt;
+        font-size: 8pt;
+    }
+  }

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cycles_human {
+    height: 30pt;
+    padding-left: 12pt;
+}
+.cycles_name {
+    height: 30pt;
+    padding-left: 2pt;
+}
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 12pt;
+}
+.right-nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Futura;
+    font-weight: bold;
+    padding: 6pt;
+    padding-bottom: 17px;
+}
+.right-nav a:hover {
+    color: grey;
+}
+.sidemenu {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .cycles_human {
+        height: 25pt;
+        padding-left: 12pt;
+    }
+    .cycles_name {
+        height: 25pt;
+        padding-left: 2pt;
+    }
+}

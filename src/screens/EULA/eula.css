@@ -1,0 +1,53 @@
+#root {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.title {
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60pt;
+}
+div {
+  max-width: 100%;
+}
+.eula {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+div h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+div p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+div ul {
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  list-style-type: disc;
+  color: white;
+}
+
+div a {
+  color: white;
+  text-decoration: underline;
+}
+
+div a:hover {
+  color: grey;
+}
+
+div h1:first-of-type {
+  margin-top: 0;
+}
